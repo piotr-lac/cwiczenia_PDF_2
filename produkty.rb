@@ -36,7 +36,7 @@ file ="products.csv"
 
 case parametr_1
 	when "-f"
-	CSV.foreach(file, headers: true) do |row|
+		CSV.foreach(file, headers: true) do |row|
 		puts "#{row[0]} #{row[1]}zł "if row[0] == parametr_2
 	end
 	when "-gt"
@@ -47,6 +47,9 @@ case parametr_1
 		CSV.foreach(file, headers: true) do |row|
 		puts "#{row[0]} #{row[1]}zł "if row[1].to_f < parametr_2.to_f
 	end
+	when "-c"
+		puts "koko"
+	
 
 end
 
