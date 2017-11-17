@@ -48,3 +48,12 @@ biblo.dodaj_czytelnika(janek)
 biblo.dodaj_czytelnika(michal)
 biblo.dodaj_czytelnika(tomek)
 
+janek.wypozycz(ksiazka_8,2012,biblo)
+janek.oddaj(ksiazka_8,2013,biblo)
+janek.wypozycz(ksiazka_1,2011,biblo)
+michal.wypozycz(ksiazka_8,2012,biblo)
+janek.wypozycz(ksiazka_2,2017,biblo)
+
+
+biblo.karta(ksiazka_8)
+biblo.historia(michal)
